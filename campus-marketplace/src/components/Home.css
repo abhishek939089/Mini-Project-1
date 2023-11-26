@@ -1,0 +1,70 @@
+/* home.css */
+
+.Products{
+  margin-left: 2%;
+}
+.card {
+    width: 350px; /* Set a fixed width for each card */
+    max-height: 400px; /* Set a fixed height for each card */
+    margin: 10px; /* Set margin between cards */
+    
+  }
+  
+  .card img {
+    width: 100%; /* Make the image inside the card take up 100% of the card's width */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  /* Additional styling for card content */
+  .card-body {
+    padding: 10px;
+    /* text-align: center; */
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  /* Add any other styles as needed */
+  
+  
+.icons{
+  font-size: 32px;
+  height: 32px;
+  width: 32px;
+  color: #eee;
+  cursor: pointer;
+}
+.icon-con{
+  position: absolute;
+  top: 0;
+  right: 0;  
+  border-radius: 50%;
+  padding: 7px;
+  background-color: white;
+  margin-top: 7px;
+  margin-right:4px ;
+}
+.icons:hover{
+  color: red;
+}
+
+
+.clear-btn {
+  height: 24px;
+  background-color: #002f34;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  padding: 0px 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
